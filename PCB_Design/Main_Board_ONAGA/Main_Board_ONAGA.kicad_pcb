@@ -192,7 +192,7 @@
       (net 4 "+5V") (pinfunction "P2") (pintype "passive") (tstamp 7afae36e-1d2f-4b2d-8a43-a0d2bc8fa162))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "P3") (pintype "passive") (tstamp 3235f583-3c77-47ef-a2c4-1b2ba4f7f254))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -256,7 +256,7 @@
       (net 4 "+5V") (pinfunction "P2") (pintype "passive") (tstamp 2de8541f-8aac-42f3-a8ee-b5d340a834b3))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "P3") (pintype "passive") (tstamp d0e513e7-a55d-47d0-a92d-08e69e2fe7ba))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -535,7 +535,7 @@
       (net 22 "/LED_2") (pintype "passive") (tstamp 5a0dcd40-ce2e-482f-94e1-3fba444e492f))
     (pad "2" smd rect (at -1.397 0 180) (size 1.6002 1.8034) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "Net-(D3-A)") (pintype "passive") (tstamp 2ba7ca79-c32f-4bb6-9703-e2a4aeae6d5f))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -985,7 +985,7 @@
       (net 4 "+5V") (pinfunction "P2") (pintype "passive") (tstamp 46a42ab1-8c50-4790-9bdb-622a52ef8d15))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "P3") (pintype "passive") (tstamp 0ce0cd5d-b134-40d9-9596-292d329f82f8))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1096,7 +1096,7 @@
       (net 3 "/EN") (pintype "passive") (tstamp 181ef235-33bc-43f5-a781-77ec4513d085))
     (pad "2" smd rect (at -1.397 0 90) (size 1.6002 1.8034) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "+3V3") (pintype "passive") (tstamp 9eb19d76-987b-4fb9-a9db-90bedebf7547))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1160,7 +1160,7 @@
       (net 4 "+5V") (pinfunction "P2") (pintype "passive") (tstamp 3e202b50-8e9e-4cd6-a578-4b282cf77e03))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "P3") (pintype "passive") (tstamp f2fd1401-65cf-431b-9127-22c73b8b58e4))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1205,7 +1205,7 @@
       (net 1 "GND") (pintype "input") (tstamp 29df35e7-0ee3-475a-b3ae-9367cad89c2f))
     (pad "2" thru_hole circle (at 2.54 0) (size 2.5 2.5) (drill 1.3) (layers "*.Cu" "*.Mask" "F.SilkS")
       (net 11 "VCC") (pintype "input") (tstamp 419dff00-2fe0-4a0b-8b9e-093194a4f452))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/Bornera2_Azul.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/Bornera2_Azul.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1269,7 +1269,7 @@
       (net 4 "+5V") (pinfunction "P2") (pintype "passive") (tstamp a2bf993d-da03-4e4c-8b73-321a8d58da11))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "P3") (pintype "passive") (tstamp 4ce2eac9-b39c-4ac7-8e06-6a8d28dfae83))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1310,7 +1310,7 @@
       (net 24 "/LED_BUILTING") (pintype "passive") (tstamp 0427ef86-4b66-4011-a203-1df49f075be9))
     (pad "2" smd rect (at -1.397 0 180) (size 1.6002 1.8034) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "Net-(D1-A)") (pintype "passive") (tstamp a4f66cae-db9a-4d50-8fb1-380f05d09f10))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1351,7 +1351,7 @@
       (net 23 "/LED_1") (pintype "passive") (tstamp e3157a14-6a96-4921-8275-3e0d2c7f6045))
     (pad "2" smd rect (at -1.397 0 180) (size 1.6002 1.8034) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "Net-(D2-A)") (pintype "passive") (tstamp 0ff6fbac-093a-449b-91e7-ca44cfc11671))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1463,7 +1463,7 @@
       (net 2 "/BOOT") (pintype "passive") (tstamp be8afe1a-67df-4cec-af1b-c36a231df8e4))
     (pad "2" smd rect (at -1.397 0 270) (size 1.6002 1.8034) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "+3V3") (pintype "passive") (tstamp 7985929b-6daa-4755-ae33-d29157a69e85))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1934,7 +1934,7 @@
       (net 5 "+3V3") (pintype "passive") (tstamp e9fca288-7b12-47f7-995c-2d6b67664733))
     (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp 7c2493a7-5dab-4c64-af4d-daabff350ee1))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1998,7 +1998,7 @@
       (net 4 "+5V") (pinfunction "P2") (pintype "passive") (tstamp d7e18f89-f50c-4f92-a875-904252117e74))
     (pad "3" thru_hole oval (at 0 5.08 90) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "P3") (pintype "passive") (tstamp abc826bb-74a9-4f59-a1ae-97b93db3c726))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2116,7 +2116,7 @@
       (net 4 "+5V") (pintype "passive") (tstamp e2db0452-1047-4110-a3b3-4184b60f5a64))
     (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp bee243f8-cb91-4c96-a99f-f17ccec824a1))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2321,7 +2321,7 @@
       (net 4 "+5V") (pintype "passive") (tstamp 85dbe7f6-3d9d-4b2d-8513-027174e9d308))
     (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp d8a1beef-e40d-48a3-969c-678f2eff64c8))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2360,7 +2360,7 @@
       (net 11 "VCC") (pintype "passive") (tstamp 48f948b8-6fc3-4a63-a354-f51cb8151d70))
     (pad "2" smd rect (at -0.9525 0 270) (size 1.30048 1.4986) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 2ca4ca14-ad99-4201-bfa1-b65f46c8a873))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/C_0805.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/C_0805.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2676,7 +2676,7 @@
       (net 11 "VCC") (pintype "passive") (tstamp 5c2188a7-5979-4df9-99a8-6a0507c4eb90))
     (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "GND") (pintype "passive") (tstamp 8821a9a5-7f25-42f1-84ae-3bb53100f906))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2812,7 +2812,7 @@
       (net 11 "VCC") (pintype "passive") (tstamp 7b0d38f6-f4c9-4db5-965e-9941b548c558))
     (pad "2" smd rect (at -0.9525 0 270) (size 1.30048 1.4986) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 06986c82-301b-4049-a359-2067c9537e1f))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/C_0805.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/C_0805.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2948,7 +2948,7 @@
       (net 5 "+3V3") (pintype "passive") (tstamp 36be230a-1dfc-40d5-aaa3-6deabd43816a))
     (pad "2" smd rect (at -1.397 0 180) (size 1.6002 1.8034) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 26 "/PUSH_2") (pintype "passive") (tstamp f16add5e-aa10-4045-88c2-b815b4771baa))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2987,7 +2987,7 @@
       (net 5 "+3V3") (pintype "passive") (tstamp 65eefd73-8dfd-4711-869f-0e8a22b5db8f))
     (pad "2" smd rect (at -1.397 0 180) (size 1.6002 1.8034) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 25 "/PUSH_1") (pintype "passive") (tstamp d2958793-daf6-4df9-8b96-931553d35062))
-    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl"
+    (model "D:/APPS Mauri/KiCad Carpetas/EESTN5 - Librerias Kicad/EESTN5.3dshapes/R_1206.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
