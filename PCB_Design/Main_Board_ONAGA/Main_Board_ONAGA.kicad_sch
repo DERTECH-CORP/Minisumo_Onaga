@@ -1918,6 +1918,10 @@
     (stroke (width 0) (type default))
     (uuid 70b94c76-3f2a-475c-a8ae-dbca851e1be7)
   )
+  (wire (pts (xy 248.7168 32.8168) (xy 248.7168 43.9928))
+    (stroke (width 0) (type default))
+    (uuid 725a0aa5-cbd7-4e8a-a92d-8bc56466e1a6)
+  )
   (wire (pts (xy 219.4306 153.416) (xy 219.4306 154.686))
     (stroke (width 0) (type default))
     (uuid 74828462-870c-498c-954f-daa18ece8551)
@@ -2105,6 +2109,10 @@
   (wire (pts (xy 142.8242 52.0446) (xy 145.923 52.0446))
     (stroke (width 0) (type default))
     (uuid b5423380-041e-4423-93ae-a758b104c241)
+  )
+  (wire (pts (xy 249.5042 77.2414) (xy 249.5042 88.4174))
+    (stroke (width 0) (type default))
+    (uuid b92b6444-391d-4a07-86c6-b472893b7b42)
   )
   (wire (pts (xy 218.7702 131.8006) (xy 218.7702 133.0706))
     (stroke (width 0) (type default))
@@ -2436,17 +2444,9 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 81f2a9b5-9aff-4c46-87bc-d5ab0fad6b5c)
   )
-  (label "Vin" (at 248.7168 43.9928 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 869603dd-a946-4b88-9aec-9b80df9f8034)
-  )
   (label "Rx" (at 150.3172 44.4246 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8ef1f331-706d-4120-9a7a-d8c742b97841)
-  )
-  (label "Vin" (at 249.5042 88.4174 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 917468c6-43bb-4030-b1a6-660fb4380024)
   )
   (label "INP_6" (at 145.8976 87.6046 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left bottom))
@@ -5422,6 +5422,41 @@
     )
   )
 
+  (symbol (lib_id "power:VCC") (at 249.5042 77.2414 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d5c09b35-ee9d-4975-b135-3323b3307afc)
+    (property "Reference" "#PWR046" (at 249.5042 81.0514 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 249.5042 73.4314 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 249.5042 77.2414 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 249.5042 77.2414 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 58c564b7-647f-4b72-bc72-52fde6804397))
+    (instances
+      (project "Main_Board_ONAGA"
+        (path "/0e2ee51b-8ca6-4bc3-bf29-93c6145de010"
+          (reference "#PWR046") (unit 1)
+        )
+      )
+      (project "Main_Board_COYOTE"
+        (path "/8dc25483-921d-4069-82df-8c37827f2e52"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "Main board - Junior"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RF_Module:ESP32-WROOM-32") (at 127.5842 72.3646 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc498f02-deaf-4fbb-8318-f444b2ae8c05)
@@ -5826,6 +5861,41 @@
       (project "Wakanda_MultiRobot"
         (path "/7706e104-9d42-4651-8ea1-0974927a2230/0a488edf-d039-4a58-8e18-6b013530cf76"
           (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 248.7168 32.8168 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid feabedae-1aca-4950-b617-2f229127a0ed)
+    (property "Reference" "#PWR047" (at 248.7168 36.6268 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 248.7168 29.0068 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 248.7168 32.8168 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 248.7168 32.8168 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7d2bb10a-27e9-4f04-acb8-0260de522352))
+    (instances
+      (project "Main_Board_ONAGA"
+        (path "/0e2ee51b-8ca6-4bc3-bf29-93c6145de010"
+          (reference "#PWR047") (unit 1)
+        )
+      )
+      (project "Main_Board_COYOTE"
+        (path "/8dc25483-921d-4069-82df-8c37827f2e52"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "Main board - Junior"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
